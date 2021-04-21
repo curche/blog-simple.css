@@ -1,4 +1,9 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Standard template taken from https://github.com/github/gitignore/blob/master/community/Golang/Hugo.gitignore
+# Generated files by hugo
+/public/
+/resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
