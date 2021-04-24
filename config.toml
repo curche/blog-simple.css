@@ -1,0 +1,9 @@
+baseURL = "http://curche.github.io"
+languageCode = "en-us"
+title = "Simple.css Blog"
+
+# if you dont want posts as links 
+#  like baseURL/blog/new-post
+# [permalinks]
+#  blog = "/:title/"
+
