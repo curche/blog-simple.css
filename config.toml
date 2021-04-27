@@ -4,6 +4,36 @@ title = "Simple.css Blog"
 
 # if you dont want posts as links 
 #  like baseURL/blog/new-post
-# [permalinks]
-#  blog = "/:title/"
+[permalinks]
+  blog = "/:title/"
 
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "blogroll"
+    name = "Blogroll"
+    url = "/blogroll"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 50
